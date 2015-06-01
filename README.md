@@ -11,8 +11,17 @@ Java JADE framework, a simple project template for Eclipse Luna
 
 2. Run As -> Run Configurations -> New Java Application
 
-> Projects : JADE_helloworld_agent
+
+
+> Projects1 : HelloWorldAgent
 
 > Main class : jade.Boot
 
-> Arguments : -gui Bob:example.HelloWorldAgent;Alice:example.HelloWorldAgent
+> Arguments : -gui Alice:example.HelloWorldAgent;Bob:example.HelloWorldAgent
+
+
+> Projects2 : SendMessageAgent + ReceiveMessageAgent  
+
+> Main class : jade.Boot
+
+> Aeguments : -gui Alice:example.SendMsgAgent;Bob:example.ReceiveMsgAgent
