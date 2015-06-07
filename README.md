@@ -25,3 +25,18 @@ Java JADE framework, a simple project template for Eclipse Luna
 > Main class : jade.Boot
 
 > Aeguments : -gui Alice:example.SendMsgAgent;Bob:example.ReceiveMsgAgent
+
+###Misc  
+
+####Behaviour types  
+SimpleBehaviour  
+OneShotBehaviour  
+CyclicBehaviour  
+
+CompositeBehaviour  
+equentialBehaviour  
+ParallelBehaviour  
+FSMBehaviour  
+WakerBehaviour  
+TickerBehaviour  
+
